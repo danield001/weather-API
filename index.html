@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+
+
+
+<body>
+
+<header>
+    <h1> Weather Dashboard </h1>
+</header>
+
+<main>
+    <div class="main-cont">
+        <div class="search">
+            <h2>Search for a City:</h2>
+            <input class="search-input" id="city-name" type="text" placeholder="New York"> </br>
+            <button type="submit" id="search-btn" class="submit-btn">Find Weather</button>
+            <!-- Add Divide--> 
+            <h3>Your Recent Searches:</h3>
+            <button value="Melbourne">Melbourne</button>
+            <button value="Adelaide">Adelaide</button>
+            <button value="Sydney">Sydney</button>
+            <button value="Brisbane">Brisbane</button>
+            <button value="Perth">Perth</button>
+            <button value="Darwin">Darwin</button>
+            <button value="Hobart">Hobart</button>
+            <button value="Canberra">Canberra</button>
+
+            <!-- ADD BUTTON/LIST WITH SIGGESTED CITY -->
+        </div>
+        <div class="display">
+            <div class="day-disp"></div>
+            <div class="day-1 forecast"></div>
+            <div class="day-2 forecast"></div>
+            <div class="day-3 forecast"></div>
+            <div class="day-4 forecast"></div>
+            <div class="day-5 forecast"></div>
+        </div>
+    </div>
+
+</main>
+
+<script src="./assets/script.js"></script>
+
+</body>
+
+
+
+
+
+
+
+</html>
