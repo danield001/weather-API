@@ -18,33 +18,30 @@
 </header>
 
 <main>
-    <div class="main-cont">
+    <section class="main-cont">
         <div class="search">
             <h2>Search for a City:</h2>
             <input class="search-input" id="city-name" type="text" placeholder="New York"> </br>
             <button type="submit" id="search-btn" class="submit-btn">Find Weather</button>
             <!-- Add Divide--> 
             <h3>Your Recent Searches:</h3>
-            <button value="Melbourne">Melbourne</button>
-            <button value="Adelaide">Adelaide</button>
-            <button value="Sydney">Sydney</button>
-            <button value="Brisbane">Brisbane</button>
-            <button value="Perth">Perth</button>
-            <button value="Darwin">Darwin</button>
-            <button value="Hobart">Hobart</button>
-            <button value="Canberra">Canberra</button>
+            <div id="search-history">
+
+            </div>
 
             <!-- ADD BUTTON/LIST WITH SIGGESTED CITY -->
         </div>
         <div class="display">
-            <div class="day-disp"></div>
-            <div class="day-1 forecast"></div>
-            <div class="day-2 forecast"></div>
-            <div class="day-3 forecast"></div>
-            <div class="day-4 forecast"></div>
-            <div class="day-5 forecast"></div>
+            <div class="day-disp" id="day-disp"></div>  </br>  
+            <div class="five-day-forecast">
+            <div id="day-1" class="day-1 forecast"></div>
+            <div id="day-2" class="day-2 forecast"></div>
+            <div id="day-3" class="day-3 forecast"></div>
+            <div id="day-4" class="day-4 forecast"></div>
+            <div id="day-5" class="day-5 forecast"></div>
+            </div>
         </div>
-    </div>
+    </section>
 
 </main>
 
